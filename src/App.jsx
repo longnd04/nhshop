@@ -1,4 +1,20 @@
+import { useEffect } from 'react';
+import Swiper from 'swiper';
+
 function App() {
+  useEffect(() => {
+    var swiper = new Swiper(".best-seller", {
+      slidesPerView: "auto",
+      spaceBetween: 30,
+      centeredSlides: true,
+      breakpoints: {
+        768: {
+          centeredSlides: false,
+        },
+      },
+    }, []);
+
+  })
   return (
     <>
       <header>
@@ -92,39 +108,307 @@ function App() {
             </div>
           </div>
         </div>
-        <div class="hidden lg:block">
-          <div class="container">
+        <div className="hidden lg:block">
+          <div className="container">
             <nav>
-              <ul class="lg:flex items-center justify-center space-x-10 text-[#46494F]">
-                <li><a href="" class="block py-4">Shop All</a></li>
-                <li><a href="" class="block py-4">Flower</a></li>
-                <li><a href="" class="block py-4">Edibles</a></li>
-                <li><a href="" class="block py-4">Concentrates</a></li>
-                <li><a href="" class="block py-4">Mushrooms</a></li>
-                <li><a href="" class="block py-4">Promotions/Bundles</a></li>
-                <li><a href="" class="block py-4">Support</a></li>
-                <li><a href="" class="block py-4">Rewards</a></li>
-                <li><a href="" class="block py-4">Blog</a></li>
+              <ul className="lg:flex items-center justify-center space-x-10 text-[#46494F]">
+                <li><a href="" className="block py-4">Shop All</a></li>
+                <li><a href="" className="block py-4">Flower</a></li>
+                <li><a href="" className="block py-4">Edibles</a></li>
+                <li><a href="" className="block py-4">Concentrates</a></li>
+                <li><a href="" className="block py-4">Mushrooms</a></li>
+                <li><a href="" className="block py-4">Promotions/Bundles</a></li>
+                <li><a href="" className="block py-4">Support</a></li>
+                <li><a href="" className="block py-4">Rewards</a></li>
+                <li><a href="" className="block py-4">Blog</a></li>
               </ul>
             </nav>
           </div>
         </div>
       </header>
       <section
-        class="bg-[url('src/assets/images/banner-mobile.jpg')] lg:bg-[url('src/assets/images/banner-desktop.jpg')] bg-no-repeat bg-cover bg-center text-white min-h-[720px] flex py-10 lg:items-center lg:py-0"
+        className="bg-[url('src/assets/images/banner-mobile.jpg')] lg:bg-[url('src/assets/images/banner-desktop.jpg')] bg-no-repeat bg-cover bg-center text-white min-h-[720px] flex py-10 lg:items-center lg:py-0"
       >
-        <div class="container">
-          <div class="lg:w-2/3">
-            <span class="block text-[#F2BC1B] tracking-[4px] text-sm lg:mb-5 lg:text-base">BEST SELLER</span>
-            <h1 class="main-title">BEST DISPENSARY TO BUY WEED ONLINE</h1>
-            <a href="" class="block text-lg/[150%] lg:mb-10 lg:text-2xl/[150%] tracking-">Vitamins & Supplements</a>
-            <div class="mb-5">
-              <span class="text-lg/[150%] lg:mb-5 lg:text-2xl/[150%]">Get 25% off</span><span>Free Shipping</span>
+        <div className="container">
+          <div className="lg:w-2/3">
+            <span className="block text-[#F2BC1B] tracking-[4px] text-sm lg:mb-5 lg:text-base">BEST SELLER</span>
+            <h1 className="main-title">BEST DISPENSARY TO BUY WEED ONLINE</h1>
+            <a href="" className="block text-lg/[150%] lg:mb-10 lg:text-2xl/[150%] tracking-">Vitamins & Supplements</a>
+            <div className="mb-5">
+              <span className="text-lg/[150%] lg:mb-5 lg:text-2xl/[150%]">Get 25% off</span><span>Free Shipping</span>
             </div>
-            <a href="" class="btn lg:btn-lg">Shop All</a>
+            <a href="" className="btn lg:btn-lg">Shop All</a>
           </div>
         </div>
       </section>
+      <section className="bg-[#C3D2CC] py-[64px] lg:py-[80px]">
+        <div className="container">
+          <div className="grid lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-[64px,auto] lg:grid-cols-[100px,auto] gap-6">
+              <div>
+                <div
+                  className="bg-white rounded-full h-[64px] lg:h-[100px] flex items-center justify-center"
+                >
+                  <img
+                    src="src/assets/icons/new/truck-fast.svg"
+                    alt=""
+                    className="w-[36px] lg:w-[56px]"
+                  />
+                </div>
+              </div>
+              <div>
+                <h3 className="text-[#1A1E26] text-xl lg:text-2xl">Reliable Shipping</h3>
+                <p className="text-sm text-[#717378] lg:text-base">
+                  Green Society provides Canada Post Xpress Shipping right to your
+                  doorstep! You can also opt in for shipping insurance. For orders
+                  over $149, shipping is free!
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-cols-[64px,auto] lg:grid-cols-[100px,auto] gap-6">
+              <div>
+                <div
+                  className="bg-white rounded-full h-[64px] lg:h-[100px] flex items-center justify-center"
+                >
+                  <img
+                    src="src/assets/icons/new/safe-home.svg"
+                    alt=""
+                    className="w-[36px] lg:w-[56px]"
+                  />
+                </div>
+              </div>
+              <div>
+                <h3 className="text-[#1A1E26] text-xl lg:text-2xl">Reliable Shipping</h3>
+                <p className="text-sm text-[#717378] lg:text-base">
+                  Green Society provides Canada Post Xpress Shipping right to your
+                  doorstep! You can also opt in for shipping insurance. For orders
+                  over $149, shipping is free!
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-cols-[64px,auto] lg:grid-cols-[100px,auto] gap-6">
+              <div>
+                <div
+                  className="bg-white rounded-full h-[64px] lg:h-[100px] flex items-center justify-center"
+                >
+                  <img
+                    src="src/assets/icons/new/coin.svg"
+                    alt=""
+                    className="w-[36px] lg:w-[56px]"
+                  />
+                </div>
+              </div>
+              <div>
+                <h3 className="text-[#1A1E26] text-xl lg:text-2xl">Reliable Shipping</h3>
+                <p className="text-sm text-[#717378] lg:text-base">
+                  Green Society provides Canada Post Xpress Shipping right to your
+                  doorstep! You can also opt in for shipping insurance. For orders
+                  over $149, shipping is free!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-[64px] lg:py-[120px]">
+        <div className="container">
+          <div className="mb-[32px] lg:mb-[64px]">
+            <h2 className="main-title uppercase text-center">
+              BEST DISPENSARY TO BUY <br className="hidden lg:block" />
+              WEED ONLINE IN CANADA
+            </h2>
+          </div>
+
+          <div>
+            <div className="tabs lg:mb-[64px]">
+              <ul className="lg:grid grid-cols-3 gap-8">
+                <li>
+                  <a
+                    href=""
+                    className="block h-[40px] leading-[40px] lg:h-[48px] lg:leading-[48px] text-center text-sm lg:text-base border border-[#05422C] rounded-full hover:bg-[#F2F6F4] transition ease-in-out duration-500"
+                  >Best Sellers</a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    className="block h-[40px] leading-[40px] lg:h-[48px] lg:leading-[48px] text-center text-sm lg:text-base border border-[#05422C] rounded-full hover:bg-[#F2F6F4] transition ease-in-out duration-500"
+                  >Bundles & Promotions</a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    className="block h-[40px] leading-[40px] lg:h-[48px] lg:leading-[48px] text-center text-sm lg:text-base border border-[#05422C] rounded-full hover:bg-[#F2F6F4] transition ease-in-out duration-500"
+                  >On Sale</a>
+                </li>
+              </ul>
+            </div>
+            <div className="tabs-content">
+              <div className="grid grid-cols-12 gap-8">
+                <div className="col-span-12 lg:col-span-4">
+                  <div
+                    className="bg-secondary text-center rounded-2xl px-10 py-[35px] lg:py-[122px]"
+                  >
+                    <div className="mb-5">
+                      <img
+                        src="src/assets/images/products/product1.png"
+                        alt=""
+                        className="mx-auto"
+                      />
+                    </div>
+                    <h3 className="mb-5">
+                      <a href="" className="text-xl text-white"
+                      >Shop our Best Sellers</a>
+                    </h3>
+                    <p className="mb-5 text-sm text-gray-400">
+                      Lorem ipsum dolor sit amet consectetur. Ullamcorper ipsum
+                      varius lorem blandit lectus magnis feugiat.
+                    </p>
+                    <a href="" className="text-sm text-[#17AF26] underline">View All</a>
+                  </div>
+                </div>
+                <div className="col-span-12 lg:col-span-8">
+                  <div className="swiper best-seller">
+                    <div className="swiper-wrapper">
+                      <div className="swiper-slide w-[291px]">
+                        <div>
+                          <div
+                            className="h-[240px] flex items-center justify-center bg-[url('src/assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat"
+                          >
+                            <img
+                              src="src/assets/images/products/product1.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="product-content text-center py-5">
+                            <a
+                              href=""
+                              className="block mb-2 text-sm font-light text-[#9D9EA2] uppercase"
+                            >CONCENTRATES</a>
+                            <h3 className="mb-4">
+                              <a href="" className="text-lg text-[#1A1E26]"
+                              >Mix And Match Shatter/Budder 28g (4 X
+                                7G)</a>
+                            </h3>
+                            <div className="rating mb-4">
+                              <span>4.6/5 | 135</span>
+                              <a href="" className="text-[#C8C9CB]"
+                              >Reviews</a>
+                            </div>
+                            <span
+                              className="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg"
+                            >Indica 70%</span>
+                            <div className="mb-4">
+                              <span className="text-[#EB2606]">$200.00</span>
+                              <span className="text-[#C8C9CB] text-base"
+                              >/gram</span>
+                            </div>
+                            <ul
+                              className="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3"
+                            >
+                              <li>28g</li>
+                              <li>1/2lb</li>
+                              <li>1/4lb</li>
+                            </ul>
+                            <a href="" className="btn">Add To Cart</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="swiper-slide w-[291px]">
+                        <div>
+                          <div
+                            className="h-[240px] flex items-center justify-center bg-[url('src/assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat"
+                          >
+                            <img
+                              src="src/assets/images/products/product1.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="product-content text-center py-5">
+                            <a
+                              href=""
+                              className="block mb-2 text-sm font-light text-[#9D9EA2] uppercase"
+                            >CONCENTRATES</a>
+                            <h3 className="mb-4">
+                              <a href="" className="text-lg text-[#1A1E26]"
+                              >Mix And Match Shatter/Budder 28g (4 X
+                                7G)</a>
+                            </h3>
+                            <div className="rating mb-4">
+                              <span>4.6/5 | 135</span>
+                              <a href="" className="text-[#C8C9CB]"
+                              >Reviews</a>
+                            </div>
+                            <span
+                              className="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg"
+                            >Indica 70%</span>
+                            <div className="mb-4">
+                              <span className="text-[#EB2606]">$200.00</span>
+                              <span className="text-[#C8C9CB] text-base"
+                              >/gram</span>
+                            </div>
+                            <ul
+                              className="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3"
+                            >
+                              <li>28g</li>
+                              <li>1/2lb</li>
+                              <li>1/4lb</li>
+                            </ul>
+                            <a href="" className="btn">Add To Cart</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="swiper-slide w-[291px]">
+                        <div>
+                          <div
+                            className="h-[240px] flex items-center justify-center bg-[url('src/assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat"
+                          >
+                            <img
+                              src="src/assets/images/products/product1.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="product-content text-center py-5">
+                            <a
+                              href=""
+                              className="block mb-2 text-sm font-light text-[#9D9EA2] uppercase"
+                            >CONCENTRATES</a>
+                            <h3 className="mb-4">
+                              <a href="" className="text-lg text-[#1A1E26]"
+                              >Mix And Match Shatter/Budder 28g (4 X
+                                7G)</a>
+                            </h3>
+                            <div className="rating mb-4">
+                              <span>4.6/5 | 135</span>
+                              <a href="" className="text-[#C8C9CB]"
+                              >Reviews</a>
+                            </div>
+                            <span
+                              className="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg"
+                            >Indica 70%</span>
+                            <div className="mb-4">
+                              <span className="text-[#EB2606]">$200.00</span>
+                              <span className="text-[#C8C9CB] text-base">/gram</span>
+                            </div>
+                            <ul
+                              className="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3"
+                            >
+                              <li>28g</li>
+                              <li>1/2lb</li>
+                              <li>1/4lb</li>
+                            </ul>
+                            <a href="" className="btn">Add To Cart</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </>
   )
 }
