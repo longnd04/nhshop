@@ -10,7 +10,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="py-4 lg:border-b lg:border-neutral-400 px-2">
+        <div className="py-4 lg:border-b lg:border-neutral-400 ">
           <div className="container">
             <div className="flex flex-wrap lg:flex-nowrap justify-between lg:gap-8">
               <div className="order-1 flex items-center space-x-4 lg:-ml-9">
@@ -110,6 +110,21 @@ function App() {
           </div>
         </div>
       </header>
+      <section
+        class="bg-[url('src/assets/images/banner-mobile.jpg')] lg:bg-[url('src/assets/images/banner-desktop.jpg')] bg-no-repeat bg-cover bg-center text-white min-h-[720px] flex py-10 lg:items-center lg:py-0"
+      >
+        <div class="container">
+          <div class="lg:w-2/3">
+            <span class="block text-[#F2BC1B] tracking-[4px] text-sm lg:mb-5 lg:text-base">BEST SELLER</span>
+            <h1 class="main-title">BEST DISPENSARY TO BUY WEED ONLINE</h1>
+            <a href="" class="block text-lg/[150%] lg:mb-10 lg:text-2xl/[150%] tracking-">Vitamins & Supplements</a>
+            <div class="mb-5">
+              <span class="text-lg/[150%] lg:mb-5 lg:text-2xl/[150%]">Get 25% off</span><span>Free Shipping</span>
+            </div>
+            <a href="" class="btn lg:btn-lg">Shop All</a>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
