@@ -408,7 +408,405 @@ function App() {
           </div>
         </div>
       </section>
+      <section class="py-[64px] lg:pb-[120px] lg:pt-0">
+        <div class="container">
+          <div class="mb-[32px] lg:mb-[64px]">
+            <h2 class="main-title uppercase">CUSTOMER TESTIMONIALS</h2>
+          </div>
 
+          <div>
+            <div class="tabs-content">
+              <div class="grid grid-cols-12 gap-8">
+                <div class="col-span-12 lg:col-span-4">
+                  <div class="bg-secondary rounded-2xl px-10 py-[35px] lg:py-[52px]">
+                    <div class="mb-5">
+                      <h3
+                        class="text-[32px]/[120%] -tracking-[1.5px] text-white font-semibold"
+                      >
+                        VOTED BEST ONLINE DISPENSARY IN CANADA
+                      </h3>
+                    </div>
+                    <hr class="border border-[#346654] my-5" />
+                    <a href=""><img src="./assets/icons/google.svg" alt="" /></a>
+                    <span class="text-white block mt-10">EXELLENCET</span>
+                  </div>
+                </div>
+                <div class="col-span-12 lg:col-span-8 relative">
+                  <div class="swiper testimonials">
+                    <div class="swiper-wrapper">
+                      <div
+                        class="swiper-slide w-[291px] h-[395px] border border-gray-200 rounded-lg p-10"
+                      >
+                        <div
+                          class="border-b border-gray-300 pb-5 mb-5 flex items-center space-x-5"
+                        >
+                          <img
+                            src="https://picsum.photos/36/36"
+                            alt=""
+                            class="rounded-full"
+                          />
+                          <h4>Vikki Starr</h4>
+                        </div>
+                        <div>
+                          <div class="my-rating" data-rating="2.5"></div>
+                        </div>
+                        <p class="mt-5">
+                          A affordable on any budget and such fast delivery,
+                          straight to my door! I recommend them to all my
+                          friends and family for their 420 needs.
+                        </p>
+                        <span class="text-sm text-[#9D9EA2] block mt-4"
+                        >January 15, 2023</span>
+                      </div>
+                      <div
+                        class="swiper-slide w-[291px] h-[395px] border border-gray-200 rounded-lg p-10"
+                      >
+                        <div
+                          class="border-b border-gray-300 pb-5 mb-5 flex items-center space-x-5"
+                        >
+                          <img
+                            src="https://picsum.photos/36/36"
+                            alt=""
+                            class="rounded-full"
+                          />
+                          <h4>Vikki Starr</h4>
+                        </div>
+                        <div>
+                          <div class="my-rating" data-rating="2.5"></div>
+                        </div>
+                        <p class="mt-5">
+                          A affordable on any budget and such fast delivery,
+                          straight to my door! I recommend them to all my
+                          friends and family for their 420 needs.
+                        </p>
+                        <span class="text-sm text-[#9D9EA2] block mt-4"
+                        >January 15, 2023</span>
+                      </div>
+                      <div
+                        class="swiper-slide w-[291px] h-[395px] border border-gray-200 rounded-lg p-10"
+                      >
+                        <div
+                          class="border-b border-gray-300 pb-5 mb-5 flex items-center space-x-5"
+                        >
+                          <img
+                            src="https://picsum.photos/36/36"
+                            alt=""
+                            class="rounded-full"
+                          />
+                          <h4>Vikki Starr</h4>
+                        </div>
+                        <div>
+                          <div class="my-rating" data-rating="2.5"></div>
+                        </div>
+                        <p class="mt-5">
+                          A affordable on any budget and such fast delivery,
+                          straight to my door! I recommend them to all my
+                          friends and family for their 420 needs.
+                        </p>
+                        <span class="text-sm text-[#9D9EA2] block mt-4"
+                        >January 15, 2023</span>
+                      </div>
+                      <div
+                        class="swiper-slide w-[291px] h-[395px] border border-gray-200 rounded-lg p-10"
+                      >
+                        <div
+                          class="border-b border-gray-300 pb-5 mb-5 flex items-center space-x-5"
+                        >
+                          <img
+                            src="https://picsum.photos/36/36"
+                            alt=""
+                            class="rounded-full"
+                          />
+                          <h4>Vikki Starr</h4>
+                        </div>
+                        <div>
+                          <div class="my-rating" data-rating="2.5"></div>
+                        </div>
+                        <p class="mt-5">
+                          A affordable on any budget and such fast delivery,
+                          straight to my door! I recommend them to all my
+                          friends and family for their 420 needs.
+                        </p>
+                        <span class="text-sm text-[#9D9EA2] block mt-4"
+                        >January 15, 2023</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="swiper-button-next swiper-testimonials-button-next"
+                  ></div>
+                  <div
+                    class="swiper-button-prev swiper-testimonials-button-prev"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-[64px] lg:pb-[120px] lg:pt-0">
+        <div class="container">
+          <div class="mb-[32px] lg:mb-[64px]">
+            <h2 class="main-title uppercase">CHOOSE YOUR WEED</h2>
+          </div>
+
+          <div>
+            <div class="flex items-center space-x-5">
+              <span>Filter by Interest:</span>
+              <ul
+                class="flex items-center *:py-2 *:px-4 space-x-5 *:border *:border-gray-300 *:rounded-full *:transition *:ease-in-out *:duration-500"
+              >
+                <li>Flowers</li>
+                <li>Mushrooms</li>
+                <li>Concentrate</li>
+                <li>Edibles</li>
+                <li>Shop All Weed</li>
+              </ul>
+            </div>
+            <div class="tabs-content">
+              <div class="grid grid-cols-4 gap-8">
+                <div class="product-item">
+                  <div
+                    class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat"
+                  >
+                    <img src="./assets/images/products/product1.png" alt="" />
+                  </div>
+                  <div class="product-content text-center py-5">
+                    <a
+                      href=""
+                      class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase"
+                    >CONCENTRATES</a>
+                    <h3 class="mb-4">
+                      <a href="" class="text-lg text-[#1A1E26]"
+                      >Mix And Match Shatter/Budder 28g (4 X 7G)</a>
+                    </h3>
+                    <div class="rating mb-4">
+                      <span>4.6/5 | 135</span>
+                      <a href="" class="text-[#C8C9CB]">Reviews</a>
+                    </div>
+                    <span
+                      class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg"
+                    >Indica 70%</span>
+                    <div class="mb-4">
+                      <span class="text-[#EB2606]">$200.00</span>
+                      <span class="text-[#C8C9CB] text-base">/gram</span>
+                    </div>
+                    <ul
+                      class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3"
+                    >
+                      <li>28g</li>
+                      <li>1/2lb</li>
+                      <li>1/4lb</li>
+                    </ul>
+                    <a href="" class="btn">Add To Cart</a>
+                  </div>
+                </div>
+
+                <div>
+                  <div
+                    class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat"
+                  >
+                    <img src="./assets/images/products/product1.png" alt="" />
+                  </div>
+                  <div class="product-content text-center py-5">
+                    <a
+                      href=""
+                      class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase"
+                    >CONCENTRATES</a>
+                    <h3 class="mb-4">
+                      <a href="" class="text-lg text-[#1A1E26]"
+                      >Mix And Match Shatter/Budder 28g (4 X 7G)</a>
+                    </h3>
+                    <div class="rating mb-4">
+                      <span>4.6/5 | 135</span>
+                      <a href="" class="text-[#C8C9CB]">Reviews</a>
+                    </div>
+                    <span
+                      class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg"
+                    >Indica 70%</span>
+                    <div class="mb-4">
+                      <span class="text-[#EB2606]">$200.00</span>
+                      <span class="text-[#C8C9CB] text-base">/gram</span>
+                    </div>
+                    <ul
+                      class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3"
+                    >
+                      <li>28g</li>
+                      <li>1/2lb</li>
+                      <li>1/4lb</li>
+                    </ul>
+                    <a href="" class="btn">Add To Cart</a>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat"
+                  >
+                    <img src="./assets/images/products/product1.png" alt="" />
+                  </div>
+                  <div class="product-content text-center py-5">
+                    <a
+                      href=""
+                      class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase">CONCENTRATES</a>
+                    <h3 class="mb-4">
+                      <a href="" class="text-lg text-[#1A1E26]"
+                      >Mix And Match Shatter/Budder 28g (4 X 7G)</a>
+                    </h3>
+                    <div class="rating mb-4">
+                      <span>4.6/5 | 135</span>
+                      <a href="" class="text-[#C8C9CB]">Reviews</a>
+                    </div>
+                    <span
+                      class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg"
+                    >Indica 70%</span>
+                    <div class="mb-4">
+                      <span class="text-[#EB2606]">$200.00</span>
+                      <span class="text-[#C8C9CB] text-base">/gram</span>
+                    </div>
+                    <ul
+                      class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3"
+                    >
+                      <li>28g</li>
+                      <li>1/2lb</li>
+                      <li>1/4lb</li>
+                    </ul>
+                    <a href="" class="btn">Add To Cart</a>
+                  </div>
+                </div>
+
+                <div>
+                  <div
+                    class="h-[240px] flex items-center justify-center bg-[url('./assets/images/bgProduct.png')] bg-cover bg-center bg-no-repeat"
+                  >
+                    <img src="./assets/images/products/product1.png" alt="" />
+                  </div>
+                  <div class="product-content text-center py-5">
+                    <a
+                      href=""
+                      class="block mb-2 text-sm font-light text-[#9D9EA2] uppercase"
+                    >CONCENTRATES</a>
+                    <h3 class="mb-4">
+                      <a href="" class="text-lg text-[#1A1E26]">Mix And Match Shatter/Budder 28g (4 X 7G)</a>
+                    </h3>
+                    <div class="rating mb-4">
+                      <span>4.6/5 | 135</span>
+                      <a href="" class="text-[#C8C9CB]">Reviews</a>
+                    </div>
+                    <span class="inline-block mb-3 bg-[#F2F6F4] py-2 px-4 rounded-lg">
+                      Indica 70%
+                    </span>
+                    <div class="mb-4">
+                      <span class="text-[#EB2606]">$200.00</span>
+                      <span class="text-[#C8C9CB] text-base">/gram</span>
+                    </div>
+                    <ul class="mb-4 flex space-x-3 items-center justify-center *:border *:rounded *:py-2 *:px-3">
+                      <li>28g</li>
+                      <li>1/2lb</li>
+                      <li>1/4lb</li>
+                    </ul>
+                    <a href="" class="btn">Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="lg:-mb-[171px] relative z-50">
+        <div class="container">
+          <div class="flex items-center justify-between py-16 px-20 bg-[url('/assets/images/bgCallToAction.png')] bg-no-repeat bg-cover lg:h-[342px]">
+            <div>
+              <h2 class="text-white font-semibold uppercase text-[64px]/[110%] -tracking-[4px]">
+                REFER A FRIENDS
+              </h2>
+              <div class="flex items-center space-x-5 mt-10">
+                <span class="text-white text-[32px]/[150%] -tracking-[0.5px]"
+                >And get</span>
+                <span class="text-[#F2BC1B] text-[32px]/[150%] -tracking-[1.5px]"
+                >$30!</span>
+              </div>
+            </div>
+            <div>
+              <button class="btn btn-lg">Refer Here</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-[64px] lg:pb-[120px] lg:pt-0 bg-[#01100B]">
+        <div class="container">
+          <div class="pt-[250px] mb-[32px] lg:mb-[64px] text-center">
+            <h2 class="main-title uppercase text-white">
+              HOW TO ORDER WEED ONLINE FROM TOP SHELF BC - MAIL ORDER MARIJUANA
+            </h2>
+            <p class="text-[#9D9EA2]">
+              Ordering weed online from Top Shelf BC is easy. We are proud to have made
+              the process accessible across multiple platforms and simple to understand,
+              meaning that more people can come to us to buy their cannabis products
+              online.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-y-16 lg:gap-x-8 text-center">
+            <div>
+              <div class="flex justify-center w-[280px] mx-auto relative">
+                <span
+                  class="absolute top-0 left-0 bg-[#F2BC1B] rounded-full inline-block w-[40px] h-[40px] text-center text-white leading-[40px]"
+                >1</span>
+                <img src="./assets/icons/register.svg" alt="" />
+              </div>
+              <h4 class="text-white text-2xl my-5">REGISTER</h4>
+              <p class="text-[#9D9EA2]">
+                Sign up for an account with us. This is quick and simple. We don’t
+                require any more details from you than the bare minimum needed for you
+                to place an order and get your product delivered.
+              </p>
+            </div>
+            <div>
+              <div class="flex justify-center w-[280px] mx-auto relative">
+                <span
+                  class="absolute top-0 left-0 bg-[#F2BC1B] rounded-full inline-block w-[40px] h-[40px] text-center text-white leading-[40px]"
+                >2</span>
+                <img src="./assets/icons/shop.svg" alt="" />
+              </div>
+              <h4 class="text-white text-2xl my-5">SHOP</h4>
+              <p class="text-[#9D9EA2]">
+                Decide on what you want to purchase. We stock a wide range of
+                edibles,flowers , concentrates and mushrooms there is bound to be
+                something for everyone.
+              </p>
+            </div>
+            <div>
+              <div class="flex justify-center w-[280px] mx-auto relative">
+                <span
+                  class="absolute top-0 left-0 bg-[#F2BC1B] rounded-full inline-block w-[40px] h-[40px] text-center text-white leading-[40px]"
+                >3</span>
+                <img src="./assets/icons/make-payment.svg" alt="" />
+              </div>
+              <h4 class="text-white text-2xl my-5">MAKE PAYMENT</h4>
+              <p class="text-[#9D9EA2]">
+                Pay securely. Our site boasts sturdy protection certificates to keep
+                your card details and related data safe.
+              </p>
+            </div>
+            <div>
+              <div class="flex justify-center w-[280px] mx-auto relative">
+                <span
+                  class="absolute top-0 left-0 bg-[#F2BC1B] rounded-full inline-block w-[40px] h-[40px] text-center text-white leading-[40px]"
+                >4</span>
+                <img src="./assets/icons/relax.svg" alt="" />
+              </div>
+              <h4 class="text-white text-2xl my-5">RELAX</h4>
+              <p class="text-[#9D9EA2]">
+                Your product will be packaged discretely and shipped by Canada Post
+                Xpresspost. We will provide you with a tracking number so then you can
+                follow your mail order marijuana every step of the way.
+              </p>
+            </div>
+          </div>
+          <div class="text-center mt-20">
+            <button class="btn btn-lg !px-10 h-[64px]">Choose your Weed</button>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
